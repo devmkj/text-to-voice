@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="about_us">Om os</string>
+    <string name="app_name">TTM</string>
+    <string name="blah_text">Skrive noget</string>
+    <string name="clear">Klart</string>
+    <string name="export_audio">Eksportere lyd</string>
+    <string name="language">Sprog</string>
+
+</resources>

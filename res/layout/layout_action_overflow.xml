@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/element_padding_small"
+              android:padding="@dimen/element_padding"
+              android:background="@drawable/ic_pop_up_background"
+        >
+
+    <TextView
+            android:id="@+id/export_audio"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_audio"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/text_white"
+            android:drawableLeft="@drawable/ic_export"
+            android:gravity="center_vertical"
+            android:background="@drawable/ic_text_button_background"
+            android:padding="@dimen/element_padding"
+            tools:ignore="RtlHardcoded"/>
+
+
+    <TextView
+            android:id="@+id/language"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/text_white"
+            android:drawableLeft="@drawable/ic_language"
+            android:gravity="center_vertical"
+            android:background="@drawable/ic_text_button_background"
+            android:padding="@dimen/element_padding"
+            tools:ignore="RtlHardcoded"/>
+
+
+    <TextView
+            android:id="@+id/setting"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/text_white"
+            android:drawableLeft="@drawable/ic_settings"
+            android:gravity="center_vertical"
+            android:background="@drawable/ic_text_button_background"
+            android:padding="@dimen/element_padding"
+            tools:ignore="RtlHardcoded"/>
+
+
+    <TextView
+            android:id="@+id/about_us"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/text_white"
+            android:drawableLeft="@drawable/ic_about_us"
+            android:gravity="center_vertical"
+            android:background="@drawable/ic_text_button_background"
+            android:padding="@dimen/element_padding"
+            tools:ignore="RtlHardcoded"/>
+
+
+</LinearLayout>

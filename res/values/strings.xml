@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Read To Me</string>
+    <string name="read_it_loud">Read it loud</string>
+    <string name="service">Service Activate</string>
+    <string name="open_new_file">Open file</string>
+    <string name="option_menu">Option menu</string>
+    <string name="setting">Settings</string>
+    <string name="stop">Stop</string>
+    <string name="about_us">About us</string>
+    <string name="play">Play</string>
+    <string name="clear">Clear</string>
+    <string name="blah_text">Write something. </string>
+    <string name="stop_notification">Stop notification</string>
+    <string name="export_audio">Export audio</string>
+    <string name="language">Language</string>
+    <string name="notice">Notice</string>
+    <string name="version">Build Version : </string>
+    <string name="group">RTM(Read To Me) :  Made by SoftC software\n\nDeveloper/Programmer : Shiba Prasad J.\n\n
+        Product Tester : Manoj Kumar J.\n
+    </string>
+    <string name="legal_information">Legal Information</string>
+    <string name="show_legal_info">Legal Information of RTM</string>
+    <string name="version_code">Version Code :</string>
+    <string name="feed_back">Please give us your valuable feed back about this app.
+        If you have any suggestion please do let us know at <a href="mailto:shiba.spj@hotmail.com"><b>shiba.spj@hotmail.com</b></a></string>
+    <string name="english">English</string>
+    <string name="default_language">Language : </string>
+    <string name="more">Another language</string>
+</resources>

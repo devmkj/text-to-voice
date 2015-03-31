@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/element_padding">
+
+        <TextView
+                android:id="@+id/group_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/element_padding_large"
+                android:textAppearance="?android:textAppearance"
+                android:textColor="@color/text_black"
+                android:padding="@dimen/element_padding"
+                android:background="@drawable/ic_list_item_border"
+                android:text="@string/group"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_list_item_border"
+                android:padding="@dimen/element_padding"
+                android:layout_marginBottom="@dimen/element_padding_large">
+
+            <TextView
+                    android:id="@+id/version"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/element_padding_large"
+                    android:textAppearance="?android:textAppearance"
+                    android:text="@string/version"
+                    android:padding="@dimen/element_padding_small"
+                    android:textColor="@color/text_black"
+                    />
+
+            <TextView
+                    android:id="@+id/version_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/element_padding_large"
+                    android:textAppearance="?android:textAppearance"
+                    android:text="@string/version_code"
+                    android:padding="@dimen/element_padding_small"
+                    android:textColor="@color/text_black"
+                    />
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_list_item_border"
+                android:padding="@dimen/element_padding"
+                android:layout_marginBottom="@dimen/element_padding_large">
+
+            <TextView
+                    android:id="@+id/feedback"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/element_padding_large"
+                    android:textAppearance="?android:textAppearance"
+                    android:text="@string/feed_back"
+                    android:padding="@dimen/element_padding_small"
+                    android:textColor="@color/text_black"
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_list_item_border"
+                android:padding="@dimen/element_padding">
+
+            <TextView
+                    android:id="@+id/show_legal_info"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/element_padding_large"
+                    android:textAppearance="?android:textAppearance"
+                    android:text="@string/show_legal_info"
+                    android:textColor="@color/text_black"
+                    />
+
+            <Button
+                    android:id="@+id/legal_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/legal_information"
+                    android:textAppearance="?android:textAppearance"
+                    android:textColor="@color/text_black"
+                    android:onClick="onLegalInfoButtonPress"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>

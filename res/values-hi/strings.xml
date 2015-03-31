@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="about_us">हमारे बारे में</string>
+    <string name="app_name">मेरे लिए पाठ</string>
+    <string name="blah_text">कुछ लिखना</string>
+    <string name="clear">साफ</string>
+    <string name="open_new_file">खुली फ़ाइल</string>
+    <string name="option_menu">विकल्प मेनू</string>
+    <string name="play">चलायें</string>
+    <string name="read_it_loud">इसे जोर से पढ़ें</string>
+    <string name="service">सेवा सक्रिय करें</string>
+    <string name="setting">सेटिंग</string>
+    <string name="stop">रुको</string>
+    <string name="stop_notification">अधिसूचना बंद करो</string>
+    <string name="export_audio">ऑडियो निर्यात करें</string>
+    <string name="language">भाषा</string>
+
+</resources>

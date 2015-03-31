@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/activity_bg_theme"
+        >
+
+    <!-- media controller -->
+    <include
+            android:id="@+id/media_controller"
+            layout="@layout/layout_media_controller"
+            />
+
+    <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_below="@+id/media_controller"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/element_padding_small"
+            >
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/element_padding"
+                >
+
+            <TextView
+                    android:id="@+id/paragraph"
+                    android:textIsSelectable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_black"
+                    android:textAppearance="?android:textAppearance"
+                    android:lineSpacingExtra="3dp"
+                    android:gravity="top"
+                    android:text="@string/blah_text"
+                    />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- user input box. -->
+    <EditText
+            android:id="@+id/edit_text"
+            android:layout_below="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/text_black"
+            android:textAppearance="?android:textAppearance"
+            android:background="@drawable/ic_edit_background"
+            android:overScrollMode="always"
+            android:padding="@dimen/element_padding"
+            android:layout_margin="@dimen/element_padding"
+            android:singleLine="false"
+            android:lineSpacingExtra="3dp"
+            android:inputType="none"
+            />
+
+</RelativeLayout>

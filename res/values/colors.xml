@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button">#ff565656</color>
+    <color name="ic_action_bar_background">#ff484848</color>
+    <color name="gradient_start">#3e3e3e</color>
+
+</resources>

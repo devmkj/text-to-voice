@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="about_us">关于我们</string>
+    <string name="app_name">TTM</string>
+    <string name="blah_text">写点东西</string>
+    <string name="clear">清除</string>
+    <string name="open_new_file">打开的文件</string>
+    <string name="option_menu">选项菜单</string>
+    <string name="play">玩</string>
+    <string name="read_it_loud">读它大声</string>
+    <string name="service">服务激活</string>
+    <string name="setting">设置</string>
+    <string name="stop">停止</string>
+    <string name="stop_notification">停止通知</string>
+    <string name="export_audio">导出音频</string>
+    <string name="language">语言</string>
+
+</resources>

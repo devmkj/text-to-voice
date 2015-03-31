@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AHome">
+
+    <!-- Service on. -->
+    <item android:id="@+id/service_on"
+          android:onClick="onServiceActivate"
+          android:title="@string/service"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/ic_activate_service"/>
+
+    <!-- open new file. -->
+    <item android:id="@+id/add_new_task"
+          android:title="@string/open_new_file"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/ic_open_file" />
+
+    <!-- more option. -->
+    <item android:id="@+id/option_menu"
+          android:onClick="onOptionMenu"
+          android:title="@string/option_menu"
+          android:orderInCategory="100"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_action_overflow" />
+
+</menu>

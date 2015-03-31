@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:context=".MainActivity"
+        >
+
+    <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPlay"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearance"
+            android:text="@string/play"
+            android:textColor="@color/button"
+            />
+
+    <Button
+            android:id="@+id/stop"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearance"
+
+            android:onClick="onStop"
+            android:textAllCaps="true"
+            android:text="@string/stop"
+            android:textColor="@color/button"
+            />
+
+    <Button
+            android:id="@+id/clear"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearance"
+
+            android:onClick="onClear"
+            android:textAllCaps="true"
+            android:text="@string/clear"
+            android:textColor="@color/button"
+            />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/element_padding">
+
+    <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/element_padding"
+            android:layout_marginBottom="@dimen/element_padding"
+            android:textColor="@color/text_white"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/default_language"
+            />
+
+    <Button
+            android:id="@+id/more_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/element_padding"
+
+            android:textColor="@color/text_white"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/more"/>
+
+</LinearLayout>

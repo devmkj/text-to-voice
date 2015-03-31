@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * Language data.
  * Created by shibaprasad on 3/19/2015.
  */
+@SuppressWarnings("UnusedDeclaration")
 public class Language {
 
     private static ArrayList<String[]> data = null;
@@ -18,7 +19,7 @@ public class Language {
     }
 
     private static void initData() {
-        data = new ArrayList<String[]>();
+        data = new ArrayList<>();
 
         data.add(new String[]{"en", "English"});
         data.add(new String[]{"da", "Danish"});

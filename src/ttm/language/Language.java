@@ -19,7 +19,7 @@ public class Language {
     }
 
     private static void initData() {
-        data = new ArrayList<>();
+        data = new ArrayList<String[]>();
 
         data.add(new String[]{"en", "English"});
         data.add(new String[]{"da", "Danish"});
